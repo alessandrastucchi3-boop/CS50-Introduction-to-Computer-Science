@@ -27,6 +27,14 @@ A script that emulates a linear search algorithm ($O(n)$). The program iterates 
 **Key Features:**
 * **Loop Control Structures:** Utilizing a `for` loop combined with ranges based on the dynamic length of the list (`len()`).
 * **Algorithm Optimization:** Implementation of the `break` statement to immediately halt execution once the target is found, preventing unnecessary computational overhead.
+
+* ### 📊 Student Grades Tracker (`calificaciones.py`)
+A script demonstrating the implementation of a Python dictionary to manage student records. This project highlights the transition from sequential array lookups to constant-time data retrieval using key-value pairs.
+
+**Key Features:**
+* **Constant Time Complexity ($O(1)$):** Leveraging hash tables (dictionaries) to instantly verify existence and retrieve student grades without iterative loops.
+* **Dynamic Data Insertion:** Modifying and expanding the data structure at runtime by assigning user inputs directly to new keys.
+* **Type Casting & String Formatting:** Ensuring mathematical data consistency by parsing inputs into floats and utilizing advanced string interpolation with `.format()`.
 ---
 
 ## 🧠 Technologies & Concepts Learned
