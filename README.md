@@ -21,6 +21,12 @@ This is one of my first independent scripts written in Python. It helped me soli
 * **Conditional Logic:** Using `if`, `elif`, and `else` structures efficiently to determine the tip percentage based on the service quality ("good", "regular", "bad").
 * **String Formatting:** Implementing optimized *f-strings* to display the final result with a clean, two-decimal place format (`:.2f`), accurately mimicking real currency.
 
+### 🔎 Linear Inventory Search (`buscador.py`)
+A script that emulates a linear search algorithm ($O(n)$). The program iterates through an item list step-by-step to determine if the requested element exists, returning its exact index position.
+
+**Key Features:**
+* **Loop Control Structures:** Utilizing a `for` loop combined with ranges based on the dynamic length of the list (`len()`).
+* **Algorithm Optimization:** Implementation of the `break` statement to immediately halt execution once the target is found, preventing unnecessary computational overhead.
 ---
 
 ## 🧠 Technologies & Concepts Learned
