@@ -35,6 +35,14 @@ A script demonstrating the implementation of a Python dictionary to manage stude
 * **Constant Time Complexity ($O(1)$):** Leveraging hash tables (dictionaries) to instantly verify existence and retrieve student grades without iterative loops.
 * **Dynamic Data Insertion:** Modifying and expanding the data structure at runtime by assigning user inputs directly to new keys.
 * **Type Casting & String Formatting:** Ensuring mathematical data consistency by parsing inputs into floats and utilizing advanced string interpolation with `.format()`.
+
+* ### 📝 Guest List Logger (`registro.py`)
+A Python script that implements persistent data storage by reading and writing to external text files (`.txt`). This project marks the transition from volatile runtime memory (RAM) to persistent disk storage, simulating a real-world digital check-in system.
+
+**Key Features:**
+* **Persistent File I/O:** Using the modern `with open()` context manager to safely open, stream data, and automatically close files, preventing resource leaks or data corruption.
+* **Append vs. Read Modes:** Utilizing the `"a"` (append) mode to write user inputs sequentially with newline characters (`\n`) without erasing historical logs, and the `"r"` (read) mode to fetch full contents.
+* **File Automation:** Demonstrating Python's capability to autonomously detect and generate external `.txt` files at runtime if they do not already exist.
 ---
 
 ## 🧠 Technologies & Concepts Learned
